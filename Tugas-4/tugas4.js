@@ -40,7 +40,8 @@ for(var k = 1; k <= 7; k++) {
 
 // Soal 4
 var kalimat="saya sangat senang belajar javascript"
-kalimatArray = new Array(kalimat.substring(0,4),kalimat.substring(5,11),kalimat.substring(12,18),kalimat.substring(19,26),kalimat.substring(27));
+// kalimatArray = new Array(kalimat.substring(0,4),kalimat.substring(5,11),kalimat.substring(12,18),kalimat.substring(19,26),kalimat.substring(27));
+kalimatArray = new Array(kalimat.split(' '));
 console.log(kalimatArray);
 
 // Soal 5
